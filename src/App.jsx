@@ -6,6 +6,7 @@ import About from './pages/About'
 import Services from './pages/Services'
 import Courses from './pages/Courses'
 import Contact from './pages/Contact'
+import CampusVirtual from './pages/CampusVirtual'
 import './App.css'
 
 function App() {
@@ -20,11 +21,12 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/courses" element={<Courses />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/campus-virtual" element={<CampusVirtual />} />
           </Routes>
         </main>
         <Footer />
       </div>
-    </Router>
+    </Router>   
   )
 }
 

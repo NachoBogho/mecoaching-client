@@ -51,24 +51,7 @@ body {
   color: white;
 }
 
-/* Scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-  color: #f3703c;
-}
 
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--primary-color);
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: var(--primary-dark);
-}
 
 /* Focus Styles */
 *:focus {
@@ -126,7 +109,6 @@ h6 {
 p {
   margin-bottom: 1rem;
   line-height: 1.6;
-  color: var(--text-muted);
   font-weight: 400;
   font-family: 'Montserrat', sans-serif;
 }

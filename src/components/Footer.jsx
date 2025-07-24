@@ -5,12 +5,13 @@ import './Footer.css'
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="container">
+      <div className="container-footer">
         <div className="footer-content">
-          <div className="footer-section">
+          <div className="footer-section-logo"> 
             <div className="footer-logo">
-              <FaGlobe className="logo-icon" />
-              <span className="logo-text">MECoaching</span>
+              <Link to="/">
+            <img className='logo-img' src="../../public/img/logo-mec.png" alt="MECoaching Logo" />
+          </Link>
             </div>
             <p className="footer-description">
               Transformando vidas a través del dominio del inglés. 
@@ -64,7 +65,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> 
 
         <div className="footer-bottom">
           <p>&copy; 2025 MECoaching. Todos los derechos reservados.</p>

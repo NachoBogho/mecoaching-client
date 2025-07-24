@@ -46,7 +46,7 @@
   background: white;
   padding: 3rem;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
 .contact-form-section h2 {
@@ -165,10 +165,10 @@
   display: flex;
   align-items: flex-start;
   gap: 1rem;
-  background: white;
+  background: #13839c;
   padding: 1.5rem;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
 .info-icon {
@@ -194,7 +194,7 @@
   background: white;
   padding: 2rem;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
 .office-hours h3 {
@@ -232,10 +232,12 @@
 
 /* Social Links */
 .social-links {
-  background: white;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .social-links h3 {
@@ -283,7 +285,7 @@
 .map-container {
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
 /* FAQ Section */
@@ -320,7 +322,7 @@
   background: white;
   padding: 2rem;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
 .faq-item h3 {
@@ -339,39 +341,39 @@
   .contact-hero .hero-content h1 {
     font-size: 2.5rem;
   }
-  
+
   .contact-content {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-  
+
   .contact-form-section {
     padding: 2rem;
   }
-  
+
   .form-row {
     grid-template-columns: 1fr;
   }
-  
+
   .contact-info-card {
     flex-direction: column;
     text-align: center;
   }
-  
+
   .hours-item {
     flex-direction: column;
     text-align: center;
     gap: 0.5rem;
   }
-  
+
   .social-icons {
     justify-content: center;
   }
-  
+
   .section-header h2 {
     font-size: 2rem;
   }
-  
+
   .map-content h2 {
     font-size: 2rem;
   }
